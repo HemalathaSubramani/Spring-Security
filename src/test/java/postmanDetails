@@ -1,0 +1,43 @@
+1.Authentication
+
+	 { 
+                "firstName": "Jaya",
+        "lastName": "S",
+        "email":"jaya@gmail.com",
+        "address": "Chennai,India",
+        "password": "pass123"
+    }
+
+		{
+    "user": {
+        "id": 2,
+        "firstName": "Jaya",
+        "lastName": "S",
+        "email": "jaya@gmail.com",
+        "phone": null,
+        "address": "Chennai,India",
+        "password": "$2a$10$CzM9DIGkCCDOEIvnXGeIGeV/pI6.cy1eMfVpbq8JN9zBJlAghNsA6",
+        "role": "client",
+        "createdAt": "2024-09-29T15:48:18.876+00:00"
+    },
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXlhQGdtYWlsLmNvbSIsImlhdCI6MTcyODIyNjQ0NywiaXNzIjoiTXkgc3RvcmUgQVBJIiwiZXhwIjoxNzI4MzEyODQ3fQ.fUPStMHV5KmJ7t_XLlhBdHJrUd75ZiK0Asg5Bl5UQZY"
+    
+    2.Authrization using jwttoken
+    
+    	paste the token in auth withbearer token without quotation 
+    	
+    	{
+    "User": {
+        "id": 2,
+        "firstName": "Jaya",
+        "lastName": "S",
+        "email": "jaya@gmail.com",
+        "phone": null,
+        "address": "Chennai,India",
+        "password": "$2a$10$CzM9DIGkCCDOEIvnXGeIGeV/pI6.cy1eMfVpbq8JN9zBJlAghNsA6",
+        "role": "client",
+        "createdAt": "2024-09-29T15:48:18.876+00:00"
+    },
+    "Username": "jaya@gmail.com",
+    "Authorites": []
+}
